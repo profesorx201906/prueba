@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Consultorio Veterinario Cachorros</title>
+  <link rel="stylesheet" href="estilo.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado y barra de navegación -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo-container">
+        <img src="img/logo ancho2.jpg" alt="Logo de Cachorros" class="logo" />
+      </div>
+      <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#Nosotros">Nosotros</a></li>
+          <li class="dropdown">
+            <a href="#servicios">Servicios <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#consulta">Consultas Veterinarias</a></li>
+              <li><a href="#vacunacion">Vacunación y Desparasitación</a></li>
+              <li><a href="#peluqueria">Peluquería Canina</a></li>
+              <li><a href="#cirugia">Cirugía</a></li>
+              <li><a href="#laboratorio">Laboratorio Clínico</a></li>
+              <li><a href="#guarderia">Guardería</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#productos">Productos <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#alimentos">Alimentos Premium</a></li>
+              <li><a href="#accesorios">Accesorios</a></li>
+              <li><a href="#farmacia">Farmacia Veterinaria</a></li>
+            </ul>
+          </li>
+          <li><a href="#contacto">Ubicanos</a></li>
+          <li class="appointment-btn"><a href="https://wa.me/573014763390" class="btn-nav">Agenda tu Cita</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="main-content">
+    <!-- Sección de bienvenida -->
+    <section id="inicio" class="hero">
+      <div class="baner">
+      <div class="container2">
+        <br>
+        <h1>Bienvenidos al Sitio Web del Consultorio Veterinario Cachorros</h1>
+        <p style ="color: white; font-size: 17px;">Tu veterinaria de confianza en la ciudad de Cereté. Cuidamos de tus mascotas como si fueran nuestras.</p>
+        <h2 style="color: #00A0E3; ">Tu Mascota en las Mejores Manos</h2>
+        <p style ="color: white; font-size: 17px;">Expertos en salud y bienestar animal. Petshop, Spa y mucho más para el cuidado y bienestar de tú mascota.</p>
+        <a href="https://wa.me/573014763390" class="btn">Agenda tu Cita</a>
+      </div>
+      </div>  
+    </section>
+
+    <!-- Sección sobre nosotros -->
+    <section>
+      <div class="tabla">
+    <!-- Primer bloque -->
+        <div class="row" id="Nosotros">
+          <div class="text-box">
+            <h1 style="color: #00A0E3; font-size: 40px; text-align: center;">Sobre Nosotros</h1>
+            <p style=" text-align: justify;">En Consultorio Veterinario Cachorros, somos un equipo de profesionales comprometidos con la salud y el bienestar de los animales de compañía. Con más de 15 años de experiencia, brindamos atención veterinaria integral, combinando conocimientos científicos, tecnología avanzada y un profundo sentido de empatía hacia nuestros pacientes. Nuestro equipo se distingue por su vocación, ética y dedicación, garantizando servicios de alta calidad en un entorno seguro y confiable.</p>
+          </div>
+          <div class="image-box">
+            <img src="img/mami.png" alt="Foto" height="300">
+          </div>
+        </div>
+
+    <!-- Segundo bloque -->
+        <div class="row">
+          <div class="image-box">
+            <img src="img/Luisa.png" alt="Foto" height="300">
+          </div>
+          <div class="text-box">
+            <h1 style="color: #00A0E3; font-size: 40px; text-align: center;">Nuestra Misión</h1>
+            <p style=" text-align: justify;">Nuestra misión es proporcionar atención veterinaria de excelencia, basada en principios éticos, científicos y humanitarios. Nos enfocamos en el bienestar integral de cada mascota, promoviendo la prevención, el diagnóstico preciso y el tratamiento oportuno. En Consultorio Veterinario Cachorros, nos comprometemos a ofrecer un servicio cálido y profesional, estableciendo relaciones de confianza con las familias que nos confían el cuidado de sus compañeros animales.</p>
+          </div>
+        </div>
+
+    <!-- Tercer bloque -->
+        <div class="row">
+          <div class="text-box">
+            <h1 style="color: #00A0E3; font-size: 40px; text-align: center;">Nuestra Visión</h1>
+            <p style=" text-align: justify;">Nos proyectamos como una clínica veterinaria líder a nivel regional, reconocida por su compromiso con la excelencia médica, la innovación en tratamientos y la ética profesional. Aspiramos a ser el referente en el cuidado de los animales de compañía, consolidándonos como un espacio de confianza y calidad, donde cada mascota recibe una atención personalizada y profesional.</p>
+          </div>
+          <div class="image-box">
+            <img src="img/veterinaria2.jpg" alt="Foto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios" class="sections">
+       <h2 class="section-title">Nuestros servicios</h2>
+        <div class="card-container">
+          <div class="card" id="consulta">
+            <div class="card-header">
+              <img src="img/consulta1.png" alt="Consulta veterinaria" />
+            </div>
+            <div class="card-body">
+              <h3>Consulta veterinaria</h3>
+              <p>Atención profesional para mantener a tu mascota saludable y feliz.</p>
+              <a href="servicios.html#consulta" class="button">Ver más...</a>
+            </div>
+          </div>
+
+          <div class="card" id="vacunacion">
+            <div class="card-header">
+              <img src="img/vacunacion1.png" alt="Vacunación y Desparasitación" />
+            </div>
+            <div class="card-body">
+              <h3>Vacunación y Desparasitación</h3>
+              <p>Protege a tus peluditos con nuestro esquema completo de vacunas.</p>
+              <a href="servicios.html#vacunacion" class="button">Ver más...</a>
+            </div>
+          </div>
+
+          <div class="card" id="peluqueria">
+            <div class="card-header">
+              <img src="img/peluqueria1.JPG" alt="Peluquería Canina" />
+            </div>
+            <div class="card-body">
+              <h3>Peluquería Canina</h3>
+              <p>Estética, baños medicados y cortes profesionales para tu mascota.</p>
+              <a href="servicios.html#peluqueria" class="button">Ver más...</a>
+            </div>
+          </div>
+
+          <div class="card" id="cirugia">
+            <div class="card-header">
+              <img src="img/cirugia1.png" alt="Cirugía" />
+            </div>
+            <div class="card-body">
+              <h3>Cirugía</h3>
+              <p>Contamos con la instrumentación y espacios adecuados para realizar procedimientos con los más altos estándares de calidad.</p>
+              <a href="servicios.html#cirugia" class="button">Ver más...</a>
+            </div>
+          </div>
+
+          <div class="card" id="laboratorio">
+            <div class="card-header">
+              <img src="img/laboratorio1.png" alt="Laboratorio Clínico" />  
+            </div>
+            <div class="card-body">
+              <h3>Laboratorio Clínico</h3>
+              <p>Ofrecemos servicios de exámenes generales y especializados.</p>
+              <a href="servicios.html#laboratorio" class="button">Ver más...</a>
+            </div>
+          </div>
+
+          <div class="card" id="guarderia">
+            <div class="card-header">
+              <img src="img/guarderia1.png" alt="Guardería" />
+            </div>
+            <div class="card-body">
+              <h3>Guardería</h3>
+              <p>Área de recreación para tus pequeñines, además de paseos matutinos.</p>
+              <a href="servicios.html#guarderia" class="button">Ver más...</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Sección de productos -->
+    <section id="productos" class="section light">
+      <h2 class="section-title" style="color: #00A0E3; font-size: 40px; padding: 20px;">Nuestros productos</h2>
+      <div class="card-container">
+        <div class="card" id="alimentos">
+          <div class="card-header">
+            <img src="img/concentrados1.png" alt="Concentrados" />
+          </div>
+          <div class="card-body">
+            <h3>Concentrados</h3>
+            <p>Alimentos concentrados de alta calidad para perros y gatos.</p>
+            <a href="productos.html#concentrados" class="button">Ver más...</a>
+          </div>
+        </div>
+
+        <div class="card" id="accesorios">
+          <div class="card-header">
+            <img src="img/accesorios1.png" alt="Accesorios" />
+          </div>
+          <div class="card-body">
+            <h3>Accesorios</h3>
+            <p>Todo lo que necesitas para consentir a tu mascota.</p>
+            <a href="productos.html#accesorios" class="button">Ver más...</a>
+          </div>
+        </div>
+
+        <div class="card" id="farmacia">
+          <div class="card-header">
+            <img src="img/Farmacia1.png" alt="Farmacia Veterinaria" />
+          </div>
+          <div class="card-body">
+            <h3>Farmacia Veterinaria</h3>
+            <p>Medicamentos y productos de salud para tus mascotas.</p>
+            <a href="productos.html#farmacia" class="button">Ver más...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de contacto con mapa -->
+    <section id="contacto" class="section">
+      <div class="container2">
+        <h2 class="section-title">Ubicanos</h2>
+        <div class="contact-info-section">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Calle 16 A # 14 - 87, Cereté, Córdoba, Colombia</span>
+          </div>
+        </div>
+        <!-- Mapa de Google Maps -->
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.877350372355!2d-75.7943220894886!3d8.890993791128082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2a3d9aed9447%3A0x8f4d0c7a7c7ac147!2sConsultorio%20Veterinario%20Cachorros!5e0!3m2!1ses-419!2sco!4v1748011943900!5m2!1ses-419!2sco" 
+          width="100%" 
+          height="400" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Botones flotantes -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/573014763390" target="_blank" class="floating-btn whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/cachorros_cvp/" target="_blank" class="floating-btn instagram-btn">
+            <i class="fab fa-instagram"></i>
+        </a>
+        
+        <a href="tel:+573014763390" class="floating-btn phone-btn">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+  <!-- Pie de página -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img class="logo" src="img/logo ancho2.jpg" alt="logotipo" width="100" height="100">
+        </div>
+      
+        <div class="footer-bottom">
+          &copy; 2025 Consultorio Veterinario y Peluquería Cachorros. Todos los derechos reservados.
+          <p>Tel: +57 301 476 3390 - +57 300 844 7082</p>
+        </div>
+
+        <div class="footer-social">
+          <h3 style="text-align: center;">Síguenos</h3>
+          <a href="https://www.facebook.com/profile.php?id=100063576972232"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/cachorros_cvp/"><i class="fab fa-instagram"></i></a>
+        </div>
+   
+      </div>  
+    </footer>
+</body>
+</html>
